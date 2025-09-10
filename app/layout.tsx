@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Homemade Moussaka — Tufnell Park",
     description:
       "Baked to order. Pre-order by Thu 12:00. Collection or North London delivery.",
-    images: ["/images/og-hero.jpg"]
+    images: ["/og-hero.jpg"]
   }
 };
 
