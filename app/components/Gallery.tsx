@@ -1,16 +1,17 @@
 "use client";
+
 import { useRef } from "react";
 
 const IMAGES = [
-  { src: "/images/hero-tray.jpg", alt: "Whole tray, golden top" },
-  { src: "/images/slice-lift.jpg", alt: "Slice lift showing layers" },
-  { src: "/images/plated.jpg", alt: "Plated serving with salad" },
-  { src: "/images/process.jpg", alt: "Béchamel pour" },
+  { src: "/hero-tray.jpg", alt: "whole tray, golden top" },
+  { src: "/slice-lift.jpg", alt: "Slice lift showing layers" },
+  { src: "/plated.jpg", alt: "Plated serving with salad" },
+  { src: "/process.jpg", alt: "Béchamel pour" }
 ];
 
 export default function Gallery() {
-  const dlg = useRef<HTMLDialogElement | null>(null);
-  const img = useRef<HTMLImageElement | null>(null);
+  const dlg = useRef<HTMLDialogElement>(null);
+  const img = useRef<HTMLImageElement>(null);
 
   return (
     <>
