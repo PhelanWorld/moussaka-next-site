@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "leaflet/dist/leaflet.css";
+
+:root { --bg: #F5EFE6; }
+
+html, body { background: var(--bg); }
